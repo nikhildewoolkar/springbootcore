@@ -1,0 +1,13 @@
+
+  {
+    "id": 1,
+    "bank_name": "yes bank",
+    "csvfields": [
+      "Date",
+      "Cheque No.",
+      "Description",
+      "Amount",
+      "Category",
+      "Balance"
+    ]
+  }

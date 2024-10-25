@@ -1,0 +1,26 @@
+
+spring:
+#  http:
+#    multipart:
+#      max-file-size:10MB
+#      max-request-size=11MB
+  rabbitmq:
+    host: localhost             # RabbitMQ host
+    port: 5672                  # RabbitMQ port
+    username: guest             # RabbitMQ username
+    password: guest
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bridgeup_fiscus
+    username: postgres
+    password: 1213123
+server:
+  port: 8080
+
+
